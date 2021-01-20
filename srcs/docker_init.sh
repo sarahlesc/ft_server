@@ -9,6 +9,9 @@ cp srcs_docker/nginx-config /etc/nginx/sites-available/nginx-config #copier le d
 ln -s /etc/nginx/sites-available/nginx-config  /etc/nginx/sites-enabled/nginx-config #creation d'un lien symbolique entre les sites dispo et les sites ou on peut avoir acces
 rm /etc/nginx/sites-enabled/default #on supprime la configuration par defaut du serveur
 
+# implementation of autoindex
+RUN chmod +x srcs_docker/autoindex_switch.sh
+
 #install PHPMYADMIN
 wget -c https://files.phpmyadmin.net/phpMyAdmin/4.9.2/phpMyAdmin-4.9.2-english.tar.gz -O - | tar -xz -C /var/www
 mv var/www/phpMyAdmin-4.9.2-english var/www/phpmyadmin
