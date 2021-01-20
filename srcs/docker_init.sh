@@ -11,7 +11,7 @@ rm /etc/nginx/sites-enabled/default #on supprime la configuration par defaut du 
 
 # implementation of autoindex
 cp srcs_docker/autoindex_switch.sh .
-chmod +x srcs_docker/autoindex_switch.sh
+chmod +x autoindex_switch.sh
 
 #install PHPMYADMIN
 wget -c https://files.phpmyadmin.net/phpMyAdmin/4.9.2/phpMyAdmin-4.9.2-english.tar.gz -O - | tar -xz -C /var/www
