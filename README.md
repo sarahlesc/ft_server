@@ -14,10 +14,11 @@ Ce sujet à pour but de vous faire découvir découvrir l’administration syst�
 `docker run -it --rm -p 80:80 -p 443:443 <nom_containeur>`
 
 
-## Tuto
+## Tutoriel
 
 Documentation utilisée :
 * [Comprendre Dockerfile](https://rollout.io/blog/what-is-a-dockerfile/)
+* [Paramétrer Dockerfile](https://github.com/pmouhali/ft_server)
 * [Tuto ft_server partie 1](https://forhjy.medium.com/how-to-install-lemp-wordpress-on-debian-buster-by-using-dockerfile-1-75ddf3ede861)
 * [Tuto ft_server Partie 2](https://forhjy.medium.com/42-ft-server-how-to-install-lemp-wordpress-on-debian-buster-by-using-dockerfile-2-4042adb2ab2c)
 
